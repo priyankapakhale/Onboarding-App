@@ -6,7 +6,7 @@ const Pages = () => {
   return (
     <>
       <Switch>
-        <Route exact path="/onboarding" component={Onboarding} />
+        <Route exact path="/" component={Onboarding} />
       </Switch>
     </>
   );
