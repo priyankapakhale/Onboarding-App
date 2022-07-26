@@ -1,0 +1,63 @@
+@import "../../styles/global.scss";
+
+.wrapper {
+  width: 108px;
+  display: flex;
+
+  .container {
+    width: 36px;
+    height: 36px;
+    background: $white;
+    border-radius: 50%;
+    border: 1px solid $light-gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $medium-gray;
+
+    .id {
+      font-size: 12px;
+    }
+
+    .connectorLeft {
+      position: absolute;
+      right: 36px;
+      top: 50%;
+      width: 36px;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .connectorRight {
+      position: absolute;
+      left: 36px;
+      top: 50%;
+      width: 36px;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    .active {
+      border-bottom: 1px solid $primary-purple;
+    }
+  }
+
+  .containerActive {
+    background: $primary-purple;
+    border: 1px solid $primary-purple;
+    color: $white;
+  }
+}
+
+.first {
+  width: 72px;
+  justify-content: flex-start;
+}
+
+.last {
+  width: 72px;
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}

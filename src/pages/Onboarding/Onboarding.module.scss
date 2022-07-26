@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+
+  .branding {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+    .logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+  }
+}

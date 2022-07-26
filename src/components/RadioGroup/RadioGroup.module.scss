@@ -1,0 +1,46 @@
+@import "../../styles/global.scss";
+
+.wrapper {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.container {
+  border: 1px solid $light-gray;
+  width: 192px;
+  height: 192px;
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background: white;
+  cursor: pointer;
+
+  .icon {
+    margin-bottom: 20px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .label {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $gray;
+  }
+
+  .description {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $medium-gray;
+  }
+}
+
+.active {
+  border: 1px solid $primary-purple;
+}
